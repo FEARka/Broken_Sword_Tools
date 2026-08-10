@@ -12,3 +12,17 @@
 * Translate it, then rename the finished file to **Text_translated.txt**.
 * Run **bs1_1996_clu_import_and_patch.py**: this will insert the translated texts back into **text.clu** and modify **swordres.rif**.
 * The new files will be created with the **_new** suffix.
+
+## Broken Sword 2 - the Smoking Mirror: Remastered (2010)
+* bs2_remastered_clu_export.py
+* bs2_remastered_clu_import.py
+
+**Required:**
+* Python. When installing, make sure to check “Add python.exe to PATH.”
+
+**Usage:**
+* Copy the **text_*.clu** files into the same folder as the .py files.
+* Run **bs2_remastered_clu_export.py**: this will extract the texts into **Text_*_exported.txt**.
+* Translate it, then rename the finished file to **Text_*_translated.txt**.
+* Run **bs2_remastered_clu_import.py**: this will insert the translated texts back into **Text_*.clu**.
+* The new files will be created with the **_NEW** suffix.
