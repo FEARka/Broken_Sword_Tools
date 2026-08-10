@@ -25,4 +25,4 @@
 * Run **bs2_remastered_clu_export.py**: this will extract the texts into **Text_*_exported.txt**.
 * Translate it, then rename the finished file to **Text_*_translated.txt**.
 * Run **bs2_remastered_clu_import.py**: this will insert the translated texts back into **Text_*.clu**.
-* The new files will be created with the **_NEW** suffix.
+* The new file will be created with the **_NEW** suffix.
